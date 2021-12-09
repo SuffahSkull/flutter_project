@@ -38,7 +38,7 @@ class _register_pageState extends State<register_page> {
         decoration: const BoxDecoration(
           image: DecorationImage(
             alignment: Alignment.topCenter,
-            image: AssetImage('assets/imgs/15.jpg'),
+            image: AssetImage(''),
             fit: BoxFit.cover,
           ),
         ),
