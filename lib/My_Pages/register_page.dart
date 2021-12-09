@@ -38,7 +38,7 @@ class _register_pageState extends State<register_page> {
         decoration: const BoxDecoration(
           image: DecorationImage(
             alignment: Alignment.topCenter,
-            image: AssetImage(''),
+            image: AssetImage('assets/imgs/15.jpg'),
             fit: BoxFit.cover,
           ),
         ),
@@ -231,17 +231,23 @@ class _register_pageState extends State<register_page> {
                           Text(
                             "Alredy have have an account?",
                             style: TextStyle(
+                              fontWeight: FontWeight.w500,
                               fontSize: 14,
-                              color: c4,
+                              color: c3,
                             ),
                           ),
                           TextButton(
                               onPressed: () {},
-                              style: ButtonStyle(),
+                              style: TextButton.styleFrom(
+                                primary: c1,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(32.0),
+                                ),
+                              ),
                               child: Text(
                                 "Sign in",
                                 style: TextStyle(
-                                    fontWeight: FontWeight.w500,
+                                    fontWeight: FontWeight.w600,
                                     fontSize: 15,
                                     color: c1),
                               )),
