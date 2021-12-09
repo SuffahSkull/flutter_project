@@ -247,7 +247,7 @@ class _register_pageState extends State<register_page> {
                               child: Text(
                                 "Sign in",
                                 style: TextStyle(
-                                    fontWeight: FontWeight.w600,
+                                    fontWeight: FontWeight.bold,
                                     fontSize: 15,
                                     color: c1),
                               )),
