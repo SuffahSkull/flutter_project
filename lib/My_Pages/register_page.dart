@@ -207,12 +207,15 @@ class _register_pageState extends State<register_page> {
                         ),
                       ),
                       ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                          primary: c1,
-                          padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(32.0),
+                        style: ButtonStyle(
+                          shape: MaterialStateProperty.all(
+                            RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(30),
+                            ),
                           ),
+                          backgroundColor: MaterialStateProperty.all(c1),
+                          padding: MaterialStateProperty.all(
+                              const EdgeInsets.fromLTRB(60, 15, 60, 15)),
                         ),
                         child: const Text(
                           'CREATE ACCOUNT',
