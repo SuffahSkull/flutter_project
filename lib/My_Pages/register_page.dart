@@ -232,7 +232,7 @@ class _register_pageState extends State<register_page> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            "Alredy have have an account?",
+                            "Alredy have an account?",
                             style: TextStyle(
                               fontWeight: FontWeight.w500,
                               fontSize: 14,
